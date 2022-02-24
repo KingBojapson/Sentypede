@@ -20,13 +20,11 @@ Michael Bolden is a representative and CEO of ACG Studios
 # Additional Information
 
 # Developers
-King_Bojaps AKA Michael Bolden,
-DA Bam AKA Clinton Persons
+King_Bojaps AKA Michael Bolden
 
 # Components
 Google sign in
 Facebook twitter and Instagram posting
-ACG Leaderboard initialization
 
 # Known Must Fixes
 
