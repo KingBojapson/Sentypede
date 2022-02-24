@@ -1,0 +1,8 @@
+lastUpgrade=00964
+proj.pluginVersion=0.9.64
+proj.AppId=748795384940
+proj.classDir=Assets
+proj.ConstantsClassName=Achievements
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0a%3c%21--%0aGoogle+Play+game+services+IDs.%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0a--%3e%0a%3cresources%3e%0a++%3c%21--+app_id+--%3e%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e748795384940%3c%2fstring%3e%0a++%3c%21--+achievement+Collect+500+Pods+--%3e%0a++%3cstring+name%3d%22achievement_collect_500_pods%22+translatable%3d%22false%22%3eCgkI7Ki7veUVEAIQAQ%3c%2fstring%3e%0a++%3c%21--+achievement+Collect+A+Thousand+--%3e%0a++%3cstring+name%3d%22achievement_collect_a_thousand%22+translatable%3d%22false%22%3eCgkI7Ki7veUVEAIQAg%3c%2fstring%3e%0a++%3c%21--+achievement+To+Kill+A+Spider+--%3e%0a++%3cstring+name%3d%22achievement_to_kill_a_spider%22+translatable%3d%22false%22%3eCgkI7Ki7veUVEAIQAw%3c%2fstring%3e%0a++%3c%21--+achievement+RoadKill+--%3e%0a++%3cstring+name%3d%22achievement_roadkill%22+translatable%3d%22false%22%3eCgkI7Ki7veUVEAIQBA%3c%2fstring%3e%0a++%3c%21--+achievement+Invincible+Much+--%3e%0a++%3cstring+name%3d%22achievement_invincible_much%22+translatable%3d%22false%22%3eCgkI7Ki7veUVEAIQBQ%3c%2fstring%3e%0a++%3c%21--+leaderboard+Highest+Scorer%27s+--%3e%0a++%3cstring+name%3d%22leaderboard_highest_scorers%22+translatable%3d%22false%22%3eCgkI7Ki7veUVEAIQAA%3c%2fstring%3e%0a%3c%2fresources%3e
+and.ClientId=
+android.SetupDone=true

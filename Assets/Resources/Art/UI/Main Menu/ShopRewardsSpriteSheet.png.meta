@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: 035937741f7f29a4b9087d8b983f9634
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5182802664409238151
+    second: ShopRewardsSpriteSheet_0
+  - first:
+      213: -567676926330654714
+    second: ShopRewardsSpriteSheet_1
+  - first:
+      213: 882493154937437910
+    second: ShopRewardsSpriteSheet_2
+  - first:
+      213: -8063372272906797780
+    second: ShopRewardsSpriteSheet_3
+  - first:
+      213: 4995598782741977654
+    second: ShopRewardsSpriteSheet_4
+  - first:
+      213: 8691251918540057402
+    second: ShopRewardsSpriteSheet_5
+  - first:
+      213: -4757961128301703034
+    second: ShopRewardsSpriteSheet_6
+  - first:
+      213: 2157800001358355154
+    second: ShopRewardsSpriteSheet_7
+  - first:
+      213: 6947211472080889482
+    second: ShopRewardsSpriteSheet_8
+  - first:
+      213: 4274085810728752029
+    second: ShopRewardsSpriteSheet_9
+  - first:
+      213: -8078709822285327685
+    second: ShopRewardsSpriteSheet_10
+  - first:
+      213: 8289879136699052610
+    second: ShopRewardsSpriteSheet_11
+  - first:
+      213: -5044443457589582245
+    second: ShopRewardsSpriteSheet_12
+  - first:
+      213: 571258447736737681
+    second: ShopRewardsSpriteSheet_13
+  - first:
+      213: 8008035884923393533
+    second: ShopRewardsSpriteSheet_14
+  - first:
+      213: 5794045712427575354
+    second: ShopRewardsSpriteSheet_15
+  - first:
+      213: 3439687804087806230
+    second: ShopRewardsSpriteSheet_16
+  - first:
+      213: 3077643887987939759
+    second: ShopRewardsSpriteSheet_17
+  - first:
+      213: -5188215140779559014
+    second: ShopRewardsSpriteSheet_18
+  - first:
+      213: -6624423233080323375
+    second: ShopRewardsSpriteSheet_19
+  - first:
+      213: -9210978374458250674
+    second: ShopRewardsSpriteSheet_20
+  - first:
+      213: -7714008621862485348
+    second: ShopRewardsSpriteSheet_21
+  - first:
+      213: -2905292793478478066
+    second: ShopRewardsSpriteSheet_22
+  - first:
+      213: 4797334435699292416
+    second: ShopRewardsSpriteSheet_23
+  - first:
+      213: -4498078951794673562
+    second: ShopRewardsSpriteSheet_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 514
+        width: 678
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a8f0940930de740800000000000000
+      internalID: 5182802664409238151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 761
+        width: 678
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60030ead7d43f18f0800000000000000
+      internalID: -567676926330654714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 797
+        width: 260
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de72c849de3f3c00800000000000000
+      internalID: 882493154937437910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 925
+        width: 129
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2df7ada3a5291090800000000000000
+      internalID: -8063372272906797780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 568
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a95b500aee35540800000000000000
+      internalID: 4995598782741977654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 19
+        width: 713
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b230a52978d9870800000000000000
+      internalID: 8691251918540057402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 541
+        width: 292
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d574009358fdb0800000000000000
+      internalID: -4757961128301703034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 41
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da5d413bab02fd10800000000000000
+      internalID: 2157800001358355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 364
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8666e4a604796060800000000000000
+      internalID: 6947211472080889482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 366
+        width: 586
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d935608566a905b30800000000000000
+      internalID: 4274085810728752029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 377
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2593f2838a2ef80800000000000000
+      internalID: -8078709822285327685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 0
+        width: 238
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2427ed537219b0370800000000000000
+      internalID: 8289879136699052610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 294
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5664d4e6698ef9b0800000000000000
+      internalID: -5044443457589582245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 252
+        width: 299
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f0a4418848de700800000000000000
+      internalID: 571258447736737681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 249
+        width: 302
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5907d7532422f60800000000000000
+      internalID: 8008035884923393533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 238
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ee9590e5986050800000000000000
+      internalID: 5794045712427575354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 180
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619a5e465d93cbf20800000000000000
+      internalID: 3439687804087806230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 180
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa95ca06fccf5ba20800000000000000
+      internalID: 3077643887987939759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 125
+        width: 292
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f78b51d1cff7b0800000000000000
+      internalID: -5188215140779559014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 25
+        width: 161
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2176eca225114a0800000000000000
+      internalID: -6624423233080323375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 25
+        width: 152
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a6c9468f70c2080800000000000000
+      internalID: -9210978374458250674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 9
+        width: 444
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92069b670652f490800000000000000
+      internalID: -7714008621862485348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 279
+        width: 247
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e078634e8935ea7d0800000000000000
+      internalID: -2905292793478478066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 0
+        width: 250
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009fa9c704e839240800000000000000
+      internalID: 4797334435699292416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopRewardsSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 473
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668fd92760d9391c0800000000000000
+      internalID: -4498078951794673562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ShopRewardsSpriteSheet_8: 6947211472080889482
+      ShopRewardsSpriteSheet_4: 4995598782741977654
+      ShopRewardsSpriteSheet_17: 3077643887987939759
+      ShopRewardsSpriteSheet_23: 4797334435699292416
+      ShopRewardsSpriteSheet_10: -8078709822285327685
+      ShopRewardsSpriteSheet_24: -4498078951794673562
+      ShopRewardsSpriteSheet_15: 5794045712427575354
+      ShopRewardsSpriteSheet_21: -7714008621862485348
+      ShopRewardsSpriteSheet_12: -5044443457589582245
+      ShopRewardsSpriteSheet_22: -2905292793478478066
+      ShopRewardsSpriteSheet_5: 8691251918540057402
+      ShopRewardsSpriteSheet_3: -8063372272906797780
+      ShopRewardsSpriteSheet_2: 882493154937437910
+      ShopRewardsSpriteSheet_0: 5182802664409238151
+      ShopRewardsSpriteSheet_11: 8289879136699052610
+      ShopRewardsSpriteSheet_18: -5188215140779559014
+      ShopRewardsSpriteSheet_1: -567676926330654714
+      ShopRewardsSpriteSheet_14: 8008035884923393533
+      ShopRewardsSpriteSheet_20: -9210978374458250674
+      ShopRewardsSpriteSheet_13: 571258447736737681
+      ShopRewardsSpriteSheet_16: 3439687804087806230
+      ShopRewardsSpriteSheet_9: 4274085810728752029
+      ShopRewardsSpriteSheet_19: -6624423233080323375
+      ShopRewardsSpriteSheet_7: 2157800001358355154
+      ShopRewardsSpriteSheet_6: -4757961128301703034
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

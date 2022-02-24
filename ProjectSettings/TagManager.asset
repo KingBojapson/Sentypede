@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SpawnLeft
+  - SpawnRight
+  - Land
+  - Pod
+  - Obstacle
+  - Collectible
+  - PodHolder
+  - CollectibleHolder
+  - ObstacleHolder
+  - PodContainer
+  - GameUI
+  - PausedPanel
+  - GameOverPanel
+  - Barriers
+  - Head
+  - star
+  - Background
+  - BackgroundHolder
+  - grassland
+  - orange
+  - strawberry
+  - cherry
+  - reversal
+  - skull
+  - spike
+  - explosive-obstacle
+  - Fruit
+  - CameraHolder
+  - Vehicle
+  - PodSpecial
+  - Slick
+  - Stuck
+  - Reversal
+  - ManagerHolder
+  - SoundManager
+  - Explosion
+  - spit
+  - Splat
+  - SpiderLand
+  - Crate
+  - Destructible
+  - Toggle Bg
+  - OnText
+  - Handle
+  - Off Text
+  - PlayerHolder
+  - PlayerComponents
+  - particles
+  - Cone
+  - Bees
+  - LeftBoundary
+  - RightBourndary
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Shockwave
+  - Water
+  - UI
+  - Barriers
+  - 
+  - Land
+  - Obstacle
+  - BG
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Shadows
+    uniqueID: 3244909603
+    locked: 0
+  - name: Pod
+    uniqueID: 2789914095
+    locked: 0
+  - name: Star
+    uniqueID: 1850518213
+    locked: 0
+  - name: TNT
+    uniqueID: 3837432895
+    locked: 0
+  - name: Collectibles
+    uniqueID: 1069948653
+    locked: 0
+  - name: Land
+    uniqueID: 954893487
+    locked: 0
+  - name: UI
+    uniqueID: 1756446841
+    locked: 0

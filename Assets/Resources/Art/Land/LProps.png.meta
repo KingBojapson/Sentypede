@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: 26c590d57d43f40fa9bee237becf08c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: LProps_0
+  - first:
+      213: 21300002
+    second: LProps_1
+  - first:
+      213: 21300004
+    second: LProps_2
+  - first:
+      213: 21300006
+    second: LProps_3
+  - first:
+      213: 21300008
+    second: LProps_4
+  - first:
+      213: 21300010
+    second: LProps_5
+  - first:
+      213: 21300012
+    second: LProps_6
+  - first:
+      213: 21300014
+    second: LProps_7
+  - first:
+      213: 21300016
+    second: LProps_8
+  - first:
+      213: 21300018
+    second: LProps_9
+  - first:
+      213: 21300020
+    second: LProps_10
+  - first:
+      213: 21300022
+    second: LProps_11
+  - first:
+      213: 21300024
+    second: LProps_12
+  - first:
+      213: 21300026
+    second: LProps_13
+  - first:
+      213: 21300028
+    second: LProps_14
+  - first:
+      213: 21300030
+    second: LProps_15
+  - first:
+      213: 21300032
+    second: LProps_16
+  - first:
+      213: 21300034
+    second: LProps_17
+  - first:
+      213: 21300036
+    second: LProps_18
+  - first:
+      213: 21300038
+    second: LProps_19
+  - first:
+      213: 21300040
+    second: LProps_20
+  - first:
+      213: 21300042
+    second: LProps_21
+  - first:
+      213: 21300044
+    second: LProps_22
+  - first:
+      213: 21300046
+    second: LProps_23
+  - first:
+      213: 21300048
+    second: LProps_24
+  - first:
+      213: 21300050
+    second: LProps_25
+  - first:
+      213: 21300052
+    second: LProps_26
+  - first:
+      213: 21300054
+    second: LProps_27
+  - first:
+      213: 21300056
+    second: LProps_28
+  - first:
+      213: 21300058
+    second: LProps_29
+  - first:
+      213: 21300060
+    second: LProps_30
+  - first:
+      213: 21300062
+    second: LProps_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LProps_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7550
+        width: 975
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2749ba06bb56b42549757153c79329a0
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_1
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 7677
+        width: 741
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a940177bb30c34132957ebdd33051da0
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_2
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 7789
+        width: 754
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b8936d3135b4191857dc989b62b9e0
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_3
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 7556
+        width: 431
+        height: 967
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56914074bffc4241ae4289e1810ac3d
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_4
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 7781
+        width: 754
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0070ba0267ab548f28aa76b64b9d5f07
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_5
+      rect:
+        serializedVersion: 2
+        x: 5635
+        y: 7493
+        width: 488
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b39d82f81b4a2a92c3ec1e4f2e650
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_6
+      rect:
+        serializedVersion: 2
+        x: 6564
+        y: 7543
+        width: 725
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beacdf137ba114b998606880b3d0677d
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_7
+      rect:
+        serializedVersion: 2
+        x: 7565
+        y: 7731
+        width: 887
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12acfb415418401c8195968233974dc
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 6748
+        width: 900
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6080d048b874fc9853059657afeefe
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_9
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 6498
+        width: 795
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b827cc44b9da6477e9b6a9f653ba6b99
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_10
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 6581
+        width: 1033
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb30b6a03124dddb0f87fb64bc7679
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_11
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 6535
+        width: 887
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8c0154dd6124d6ebf818abfa2e1eb3
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_12
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 6414
+        width: 1025
+        height: 967
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4019c115e65884165a8ecb52ecbfb732
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_13
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 6444
+        width: 454
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054b39662286f49abb82329e7fd4f94a
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_14
+      rect:
+        serializedVersion: 2
+        x: 6689
+        y: 6423
+        width: 463
+        height: 1029
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b7b98fcebc845d9b6c1f2adc135536
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_15
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 6448
+        width: 450
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0fdb633e10d4a2c879d9e98f248812
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4256
+        width: 1548
+        height: 1187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd55103038d534ac7a2a45c35f7f0c50
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_17
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 4256
+        width: 1541
+        height: 1188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7d2f84ebf1d49238acd93be3f3d06e
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_18
+      rect:
+        serializedVersion: 2
+        x: 4281
+        y: 4239
+        width: 1542
+        height: 1188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd64d3a979c6741f5beb58b2e314ad48
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_19
+      rect:
+        serializedVersion: 2
+        x: 6423
+        y: 4306
+        width: 1541
+        height: 1044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25631ad69d104ca190a30c3a6b7722c
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2115
+        width: 1541
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d611715b926ff4578b7d132a7639bd2a
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_21
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2115
+        width: 1541
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135ffc5e0ca2c4e14ad26beca038c7be
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_22
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 2115
+        width: 1542
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36690c98a6ed94f9e80781f912766eec
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_23
+      rect:
+        serializedVersion: 2
+        x: 6681
+        y: 2181
+        width: 492
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44e51e16ff9348e4be55204265e85f9
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_24
+      rect:
+        serializedVersion: 2
+        x: 7723
+        y: 2186
+        width: 487
+        height: 974
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f662d4bf30153480583e3c872b93b41b
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_25
+      rect:
+        serializedVersion: 2
+        x: 6681
+        y: 1090
+        width: 496
+        height: 987
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e4318926e8a4d039f423e058e31c7e
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_26
+      rect:
+        serializedVersion: 2
+        x: 7614
+        y: 1106
+        width: 800
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff4cf43932fc457db9c99dd98b4e313
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_27
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 131
+        width: 828
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d4788c8da9a457f89572b39eb54625
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_28
+      rect:
+        serializedVersion: 2
+        x: 4406
+        y: 131
+        width: 827
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4488202b50d341b1baf3775750323c0
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_29
+      rect:
+        serializedVersion: 2
+        x: 5398
+        y: 140
+        width: 841
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8551b79b20e4d5ba6fa95277a22665
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_30
+      rect:
+        serializedVersion: 2
+        x: 6573
+        y: 135
+        width: 710
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b94caa6895d54c47ac76f472caa21a2
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LProps_31
+      rect:
+        serializedVersion: 2
+        x: 7643
+        y: 90
+        width: 750
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b45f9b6b5834113af944ee360f18cd
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dd753e2ebb81141c0919311e398e2754
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LProps_3: 21300006
+      LProps_30: 21300060
+      LProps_13: 21300026
+      LProps_8: 21300016
+      LProps_9: 21300018
+      LProps_29: 21300058
+      LProps_17: 21300034
+      LProps_10: 21300020
+      LProps_12: 21300024
+      LProps_11: 21300022
+      LProps_5: 21300010
+      LProps_21: 21300042
+      LProps_28: 21300056
+      LProps_20: 21300040
+      LProps_19: 21300038
+      LProps_14: 21300028
+      LProps_7: 21300014
+      LProps_31: 21300062
+      LProps_26: 21300052
+      LProps_1: 21300002
+      LProps_23: 21300046
+      LProps_25: 21300050
+      LProps_18: 21300036
+      LProps_27: 21300054
+      LProps_15: 21300030
+      LProps_0: 21300000
+      LProps_2: 21300004
+      LProps_4: 21300008
+      LProps_6: 21300012
+      LProps_24: 21300048
+      LProps_16: 21300032
+      LProps_22: 21300044
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

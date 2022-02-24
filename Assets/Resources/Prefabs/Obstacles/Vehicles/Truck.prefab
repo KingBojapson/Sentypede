@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1859239499881622}
+  m_IsPrefabAsset: 1
+--- !u!1 &1859239499881622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4934411623747986}
+  - component: {fileID: 212295599754307144}
+  - component: {fileID: 60226288799293474}
+  - component: {fileID: 114350929145574904}
+  - component: {fileID: 50432866215891532}
+  m_Layer: 0
+  m_Name: Truck
+  m_TagString: Vehicle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4934411623747986
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1859239499881622}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.625, y: 0.625, z: 0.625}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50432866215891532
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1859239499881622}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!60 &60226288799293474
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1859239499881622}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.3886693, y: -0.6060076}
+      - {x: 1.0654563, y: -0.20637178}
+      - {x: 1.2468741, y: -0.46084023}
+      - {x: 1.3955212, y: -0.47875595}
+      - {x: 1.5928149, y: -0.3438568}
+      - {x: 1.652504, y: -0.05010891}
+      - {x: 1.6659412, y: 0.09769821}
+      - {x: 1.7972943, y: 0.18718481}
+      - {x: 2.0083358, y: 0.3316636}
+      - {x: 1.9680248, y: 0.49791622}
+      - {x: 1.9325037, y: 0.7993784}
+      - {x: 1.737605, y: 0.94802505}
+      - {x: 0.8889583, y: 1.4480251}
+      - {x: 0.79343694, y: 1.465941}
+      - {x: 0.66926914, y: 1.4238571}
+      - {x: -0.03791609, y: 1.0059409}
+      - {x: -0.24208383, y: 1.1190675}
+      - {x: -0.32447892, y: 1.1683364}
+      - {x: -0.4190671, y: 1.084168}
+      - {x: -0.563546, y: 0.988647}
+      - {x: -0.66563004, y: 0.88416815}
+      - {x: -0.87073106, y: 0.7017727}
+      - {x: -1.1172941, y: 0.6017728}
+      - {x: -1.1196889, y: 0.3566718}
+      - {x: -1.6963387, y: -0.03738451}
+      - {x: -1.8904202, y: -0.20718479}
+      - {x: -1.9008397, y: -0.44625187}
+      - {x: -1.9948987, y: -0.5572939}
+      - {x: -1.9014618, y: -0.6707306}
+      - {x: -0.82416815, y: -1.3169837}
+      - {x: -0.4310421, y: -1.3808398}
+      - {x: -0.23343706, y: -1.3897977}
+      - {x: -0.16093321, y: -1.252193}
+      - {x: -0.043328, y: -0.950109}
+      - {x: 0.031229353, y: -0.7764511}
+--- !u!114 &114350929145574904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1859239499881622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00788520468e54409837f231e6da3c1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightSpeed: 0
+  leftSpeed: 0
+  myY: 0
+  numberChoosen: 0
+  vehicleExplosion: {fileID: 1162690087208790, guid: f5a060f4473814735be6328cad287b10,
+    type: 2}
+  carCurrentPos: {x: 0, y: 0}
+--- !u!212 &212295599754307144
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1859239499881622}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 954893487
+  m_SortingLayer: 6
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300016, guid: 9749674f8f75f461b834162ae31c3e35, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.12, y: 5.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

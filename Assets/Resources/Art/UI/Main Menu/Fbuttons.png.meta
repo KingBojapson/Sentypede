@@ -1,0 +1,770 @@
+fileFormatVersion: 2
+guid: f3db2f9bfadee432d8ce3ff40028f6fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -523987894910938580
+    second: Fbuttons_0
+  - first:
+      213: -1915031549093882900
+    second: Fbuttons_1
+  - first:
+      213: 7679223458915140068
+    second: Fbuttons_2
+  - first:
+      213: -9187284632392051264
+    second: Fbuttons_3
+  - first:
+      213: -657403923340048509
+    second: Fbuttons_4
+  - first:
+      213: 4219111178481327877
+    second: Fbuttons_5
+  - first:
+      213: 7195087812752292122
+    second: Fbuttons_6
+  - first:
+      213: -6794737776082693594
+    second: Fbuttons_7
+  - first:
+      213: -454764098787500034
+    second: Fbuttons_8
+  - first:
+      213: 8544108861061404228
+    second: Fbuttons_9
+  - first:
+      213: 5073270523198227408
+    second: Fbuttons_10
+  - first:
+      213: -6242578473597689007
+    second: Fbuttons_11
+  - first:
+      213: -1676061848112196275
+    second: Fbuttons_12
+  - first:
+      213: -7984002635626765866
+    second: Fbuttons_13
+  - first:
+      213: 1294596155994914788
+    second: Fbuttons_14
+  - first:
+      213: -4169349319101540931
+    second: Fbuttons_15
+  - first:
+      213: 2978674883449866383
+    second: Fbuttons_16
+  - first:
+      213: -2798629710442715677
+    second: Fbuttons_17
+  - first:
+      213: 6639132646448593204
+    second: Fbuttons_18
+  - first:
+      213: -2687558595364564941
+    second: Fbuttons_19
+  - first:
+      213: -8439518439298380750
+    second: Fbuttons_20
+  - first:
+      213: 2931408153198335953
+    second: Fbuttons_21
+  - first:
+      213: -8733822995428768942
+    second: Fbuttons_22
+  - first:
+      213: -5811090567993584411
+    second: Fbuttons_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fbuttons_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 843
+        width: 437
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d0bf24f679942f09f238dadd3d9f24
+      internalID: -523987894910938580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 658
+        width: 437
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c84e167f566b4ffea3bf1428ceb3bfd
+      internalID: -1915031549093882900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 478
+        width: 429
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc0bd858052148faa83f6656cdadd5f
+      internalID: 7679223458915140068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 290
+        width: 431
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d41bbb03bb148c5b040fe0576ad476
+      internalID: -9187284632392051264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 165
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6b2a04f328944619ffffd11d592e95
+      internalID: -657403923340048509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 14
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2513bac17ace4eb09064de655c99f0d
+      internalID: 4219111178481327877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4
+        width: 337
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeb8277cb85a413f976579aaf329f8c
+      internalID: 7195087812752292122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 112
+        width: 240
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991b61b15b5a14e6bb62ca93b0cfc16d
+      internalID: -6794737776082693594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 205
+        width: 233
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125b63365d4334e01b1ee920a830c4a1
+      internalID: -454764098787500034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 11
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6e1863478914b9db627107eefd796e
+      internalID: 8544108861061404228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_10
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 9
+        width: 118
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac48ec77c0ce4e0e8514f7a540bc26a
+      internalID: 5073270523198227408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 12
+        width: 118
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75af5be5a799430fb6f862f601ee0a3
+      internalID: -6242578473597689007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_12
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 144
+        width: 325
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c789baff6f95f4d84886d4961aa190ab
+      internalID: -1676061848112196275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_13
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 256
+        width: 235
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4217c14ecdacb41bb8605ecd779d5ff6
+      internalID: -7984002635626765866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_14
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 403
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d780d355cc6b404e864ad369628857b
+      internalID: 1294596155994914788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_15
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 682
+        width: 88
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe18f1875bb14c208a534ba9f7e72cc
+      internalID: -4169349319101540931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 849
+        width: 244
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a57eba4bfa504410b9407edc9cc1875
+      internalID: 2978674883449866383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_17
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 900
+        width: 125
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c9bb3e474f4571888764d2db5b7e6
+      internalID: -2798629710442715677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_18
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 768
+        width: 256
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65265753c78484c8d8977104aada4335
+      internalID: 6639132646448593204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 658
+        width: 262
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792c906c6f24a449eb9ac77e80097f73
+      internalID: -2687558595364564941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 539
+        width: 309
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98d217faf896470888477e5661c651c
+      internalID: -8439518439298380750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_21
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 448
+        width: 309
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c8011e7dc0c4ab692a9fed05a3b2bd
+      internalID: 2931408153198335953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 339
+        width: 309
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d887fc5ee633e4542b2228673f37030e
+      internalID: -8733822995428768942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fbuttons_23
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 232
+        width: 309
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e50ae61b5004aabac9cd0fcdf20f82
+      internalID: -5811090567993584411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fbuttons_2: 7679223458915140068
+      Fbuttons_19: -2687558595364564941
+      Fbuttons_8: -454764098787500034
+      Fbuttons_4: -657403923340048509
+      Fbuttons_17: -2798629710442715677
+      Fbuttons_6: 7195087812752292122
+      Fbuttons_14: 1294596155994914788
+      Fbuttons_23: -5811090567993584411
+      Fbuttons_11: -6242578473597689007
+      Fbuttons_15: -4169349319101540931
+      Fbuttons_20: -8439518439298380750
+      Fbuttons_5: 4219111178481327877
+      Fbuttons_13: -7984002635626765866
+      Fbuttons_10: 5073270523198227408
+      Fbuttons_18: 6639132646448593204
+      Fbuttons_21: 2931408153198335953
+      Fbuttons_0: -523987894910938580
+      Fbuttons_12: -1676061848112196275
+      Fbuttons_22: -8733822995428768942
+      Fbuttons_3: -9187284632392051264
+      Fbuttons_1: -1915031549093882900
+      Fbuttons_16: 2978674883449866383
+      Fbuttons_7: -6794737776082693594
+      Fbuttons_9: 8544108861061404228
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

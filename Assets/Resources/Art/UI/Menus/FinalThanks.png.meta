@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: d74b8fbaf162f45a79822c5d902dd36d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2093062734042693871
+    second: FinalThanks_0
+  - first:
+      213: -601072513929461576
+    second: FinalThanks_1
+  - first:
+      213: -7464813330062787953
+    second: FinalThanks_2
+  - first:
+      213: 4447290440357954708
+    second: FinalThanks_3
+  - first:
+      213: -3589292835417580151
+    second: FinalThanks_4
+  - first:
+      213: 7051883695183445928
+    second: FinalThanks_5
+  - first:
+      213: -7914719852916192673
+    second: FinalThanks_6
+  - first:
+      213: 2879215326922336036
+    second: FinalThanks_7
+  - first:
+      213: 4942707281706126438
+    second: FinalThanks_8
+  - first:
+      213: -7694710619139263762
+    second: FinalThanks_9
+  - first:
+      213: -6739182169486265943
+    second: FinalThanks_10
+  - first:
+      213: -1723022976799046955
+    second: FinalThanks_11
+  - first:
+      213: -1106908653480425723
+    second: FinalThanks_12
+  - first:
+      213: -1542184655004118333
+    second: FinalThanks_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinalThanks_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1561
+        width: 482
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cd9ed8e960741818908c5aa0b26610
+      internalID: -2093062734042693871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1453
+        width: 591
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50dea1a35b5d4cc184fdb07549681bd
+      internalID: -601072513929461576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1343
+        width: 287
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933ec580c05a04ad5ad45a61fbc5780a
+      internalID: -7464813330062787953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1169
+        width: 379
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eb06fd2c4084e37b8f7d30041bdc8c
+      internalID: 4447290440357954708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 868
+        width: 721
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1071b152f5d5f4b3ea42e7966e600227
+      internalID: -3589292835417580151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_5
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1869
+        width: 576
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0652fe925b53e4c729bf9514a6f54ea5
+      internalID: 7051883695183445928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_6
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1714
+        width: 605
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2da864d88f204e019bd3782c2fdb342
+      internalID: -7914719852916192673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1531
+        width: 343
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3757bcabeca84e18901566caa6c2ccf
+      internalID: 2879215326922336036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_8
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1349
+        width: 247
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e98fa66d36c04f558d90e0947d6880f
+      internalID: 4942707281706126438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_9
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1144
+        width: 645
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f16ed77defe48498ac0d3507a28c37
+      internalID: -7694710619139263762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 0
+        width: 703
+        height: 1110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddcc12a84e324f8abeab9ab0359071f
+      internalID: -6739182169486265943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 61
+        width: 362
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2edffb54e324c09a61d5ffb8f0a7d7
+      internalID: -1723022976799046955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 306
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec92b3c2c5b794b35844c5a36af2f62b
+      internalID: -1106908653480425723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalThanks_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 746
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4546b6bf4f5438e899eca558532894
+      internalID: -1542184655004118333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FinalThanks_6: -7914719852916192673
+      FinalThanks_4: -3589292835417580151
+      FinalThanks_8: 4942707281706126438
+      FinalThanks_13: -1542184655004118333
+      FinalThanks_2: -7464813330062787953
+      FinalThanks_10: -6739182169486265943
+      FinalThanks_3: 4447290440357954708
+      FinalThanks_7: 2879215326922336036
+      FinalThanks_12: -1106908653480425723
+      FinalThanks_1: -601072513929461576
+      FinalThanks_0: -2093062734042693871
+      FinalThanks_5: 7051883695183445928
+      FinalThanks_11: -1723022976799046955
+      FinalThanks_9: -7694710619139263762
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

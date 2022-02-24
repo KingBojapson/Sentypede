@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1237609411684414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4913477794752468}
+  - component: {fileID: 114057205718280068}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: SoundManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4913477794752468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237609411684414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114057205718280068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237609411684414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e412c36a7b1a54d1fb5d6b21a0ba722a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fX: 0
+  music: 0
+  musicVolume: 0
+  fxVolume: 0
+  gameMusic: {fileID: 8300000, guid: b7b56b5a5817f470480cf358e836fc6c, type: 3}
+  menuMusic: {fileID: 8300000, guid: 3fe4954b8332e4c6f9781c4cb78a0687, type: 3}
+  endMusic: {fileID: 8300000, guid: f5341dc229ad14c269730885c1a97d22, type: 3}
+  death: {fileID: 8300000, guid: b4ed2415592314ae4a2be45bcdeaa395, type: 3}
+  podCollected: {fileID: 8300000, guid: d32b39a49883543f4ab95654588b904d, type: 3}
+  reverseSound: {fileID: 8300000, guid: 42652d647418a4675b7532419e56baab, type: 3}
+  carStartUp: {fileID: 8300000, guid: 2b0346ac0667343bbadc11f9edc87dd0, type: 3}
+  carExplosion: {fileID: 8300000, guid: 771330655f9e84117a5661104b5bc596, type: 3}
+  carDriveOff: {fileID: 8300000, guid: 23943e0c129b74d4d9f2f08b29a3a099, type: 3}
+  carHorn: {fileID: 0}
+  starCollected: {fileID: 8300000, guid: 24219eca184b44852ae57384b7666469, type: 3}
+  tntExplosion: {fileID: 8300000, guid: 771330655f9e84117a5661104b5bc596, type: 3}
+  spikeSound: {fileID: 8300000, guid: 7b6b1bd8e4372487c89574c982462b5d, type: 3}
+  splats: {fileID: 8300000, guid: 7f5fc4c3e1e01469c9549ba845ad460e, type: 3}
+  landExplosion: {fileID: 0}
+  resurrection: {fileID: 0}
+  beeStingClip: {fileID: 8300000, guid: 29d496c396647c34fae517f6d8ef3028, type: 3}
+  voiceOvers:
+  - {fileID: 8300000, guid: 3a354aa3e3659474eb174a0b2261c0e4, type: 3}
+  - {fileID: 8300000, guid: b9e1b9b687369438dbfebf4bba46c5d9, type: 3}
+  - {fileID: 8300000, guid: 3992a6d819e084a64849332999daabc0, type: 3}
+  gameMusicSource: {fileID: 0}
+  menuMusicSource: {fileID: 0}
+  playerSounds: {fileID: 0}
+  vehicleSounds: {fileID: 0}
+  podSounds: {fileID: 0}
+  voiceSounds: {fileID: 0}
+  splatSounds: {fileID: 0}
+  explosionSounds: {fileID: 0}
+  starSounds: {fileID: 0}
+  landSound: {fileID: 0}
+  beeSound: {fileID: 0}
