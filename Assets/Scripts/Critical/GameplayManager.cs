@@ -12,8 +12,6 @@ public class GameplayManager : MonoBehaviour
     public float camMoveSpeed, distanceFactor = 1f;
     public int nDifficulty, nOldDifficulty;
     bool hasGameStarted;
-    public bool gameStop;
-    public float deathCount;
 
 
     public bool suburbs, newLevel, firstPlay;
@@ -106,7 +104,6 @@ public class GameplayManager : MonoBehaviour
 
     public void GameOver()
     {
-        deathCount++;
         if (playerStats.hasDied || playerStats.explosionDeath || playerStats.stabbed && playerStats.lives < 1)
         {
             StartCoroutine(WaitForGameOverCall());

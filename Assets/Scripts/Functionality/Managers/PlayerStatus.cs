@@ -10,7 +10,7 @@ public class PlayerStatus : MonoBehaviour
     Transform particleHolder;
     public Transform playerBoundaries;
     GameObject reversalParticles;
-    GameObject invincibilityParticles;
+    public GameObject invincibilityParticles;
     GameObject poisonedParticles;
     public GameObject beeStingParticles;
 
@@ -523,7 +523,7 @@ public class PlayerStatus : MonoBehaviour
                 var tnt = iHit.gameObject.GetComponent<TNT>();
                 tnt.Explosive();
                 SoundManager.soundInstance.TNTSound();
-                if (!playerProps.shockwaveEffect && !invincible && !specialInvincible && !!playerProps.usedSpecial)
+                if (!playerProps.shockwaveEffect && !invincible && !specialInvincible && !playerProps.usedSpecial)
                 {
                     explosionDeath = true;
                     if (explosionDeath)
@@ -616,7 +616,6 @@ public class PlayerStatus : MonoBehaviour
                 }
                 Destroy(iHit.gameObject);
                 break;
-
             case "Stuck":
                 glueTrap = true;
                 playerState = PlayerStats.Trapped;

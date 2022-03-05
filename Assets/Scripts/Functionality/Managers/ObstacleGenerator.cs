@@ -80,4 +80,9 @@ public class ObstacleGenerator : MonoBehaviour
         var obstacle = Instantiate(obsHolders[Random.Range(0, obsHolders.Length)], obstacleSpawner.transform.position, obstacleSpawner.transform.rotation);
         StartCoroutine(FirstSpawnObject());
     }
+
+    public void StopFirstSpawn()
+    {
+
+    }
 }

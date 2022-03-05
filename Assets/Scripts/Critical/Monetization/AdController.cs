@@ -36,7 +36,7 @@ public class AdController : MonoBehaviour
     {
 #if UNITY_ANDROID
         string testBannerId = "ca-app-pub-3940256099942544/6300978111";
-                bannerAd = new BannerView(testBannerId, AdSize.SmartBanner, AdPosition.Bottom);
+        bannerAd = new BannerView(testBannerId, AdSize.SmartBanner, AdPosition.Bottom);
         bannerAd.LoadAd(CreateAdRequest());
 #elif UNITY_IPHONE
         string testBannerId = "ca-app-pub-3940256099942544/2934735716";
@@ -49,7 +49,7 @@ public class AdController : MonoBehaviour
     {
 #if UNITY_ANDROID
         string testInterstitialAd = "ca-app-pub-3940256099942544/1033173712";
-                if (interstitialAd != null)
+        if (interstitialAd != null)
         {
             interstitialAd.Destroy();
         }
@@ -86,7 +86,7 @@ public class AdController : MonoBehaviour
     {
 #if UNITY_ANDROID
         string testRewardAd = "ca-app-pub-3940256099942544/5224354917";
-                rewardedAd = new RewardedAd(testRewardAd);
+        rewardedAd = new RewardedAd(testRewardAd);
 
         rewardedAd.LoadAd(CreateAdRequest());
 #elif UNITY_IPHONE
@@ -120,7 +120,9 @@ public class AdController : MonoBehaviour
 
     void HandleUserEarnedReward(object sender, Reward args)
     {
-        GameMenuController.gmmInstance.SecondActivate();
+        //Were not going to call this
+        GameMenuController.gmmInstance.AwardResurrection();
+        RequestInterstitial();
     }
     void HandleRewardedAdClosed(object sender, EventArgs args)
     {

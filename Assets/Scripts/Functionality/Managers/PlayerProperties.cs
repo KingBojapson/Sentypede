@@ -67,10 +67,10 @@ public class PlayerProperties : MonoBehaviour
             case 1:
                 if (playerStatus.hasDied && playerStatus.lives < 1)
                 {
-                    SoundManager.soundInstance.Die();
-                    playerStatus.playerState = PlayerStatus.PlayerStats.Normal;
                     SR.enabled = false;
                     playerBod.enabled = false;
+                    SoundManager.soundInstance.Die();
+                    playerStatus.playerState = PlayerStatus.PlayerStats.Normal;
                     GameplayManager.instance.GameOver();
                     DataController.instance.finishedFirstPlay = true;
                     CameraShake.cmInstance.Shake(.25f, .22f);
@@ -80,12 +80,12 @@ public class PlayerProperties : MonoBehaviour
                 }
                 else if (playerStatus.hasDied && playerStatus.lives >= 1)
                 {
+                    SR.enabled = false;
+                    playerBod.enabled = false;
                     CameraShake.cmInstance.Shake(.25f, .22f);
                     var explosion = Instantiate(playerDeath.gameObject, transform.position, transform.rotation);
                     SoundManager.soundInstance.Die();
                     Destroy(explosion.gameObject, 0.5f);
-                    SR.enabled = false;
-                    playerBod.enabled = false;
                     playerStatus.lives = playerStatus.lives - 1;
                     GameMenuController.gmmInstance.RemoveLife(playerStatus.lives);
                     if (DataController.instance.firstPlay && !alreadyUsed)
@@ -185,7 +185,7 @@ public class PlayerProperties : MonoBehaviour
                 PoisonedTraits(playerStatus.poisonTimer);
                 StartCoroutine(PoisonedColorTraits());
                 GameMenuController.gmmInstance.Text();
-                if (playerStatus.hasDied && playerStatus.lives <= 0)
+                if (playerStatus.hasDied && playerStatus.lives < 1)
                 {
                     GameplayManager.instance.GameOver();
                     SoundManager.soundInstance.Die();
@@ -393,6 +393,7 @@ public class PlayerProperties : MonoBehaviour
         }
     }//End of Invincibility Color Changes
 
+    //called during death
     public void Continue()
     {
         SR.enabled = true;
@@ -503,6 +504,7 @@ public class PlayerProperties : MonoBehaviour
             playerStatus.specialInvincible = false;
             usedSpecial = false;
             playerStatus.playerState = PlayerStatus.PlayerStats.Normal;
+            playerStatus.invincibilityParticles.SetActive(false);
             GameMenuController.gmmInstance.EndMySpecial();
 
             GameMenuController.gmmInstance.CancelText();

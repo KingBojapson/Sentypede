@@ -64,6 +64,8 @@ public class GameMenuController : MonoBehaviour
     int starCount;
 
     public bool hasSpecial, secondChanceActive;
+
+    public bool cancelGameOver;
     Animator splatAnim;
     GameObject camera;
     //Menu Animators
@@ -333,14 +335,7 @@ public class GameMenuController : MonoBehaviour
         SoundManager.soundInstance.EndGame();
         gameOverPanel.SetActive(true);
         gameOverAnim.Play("SlideIn");
-        if (GameplayManager.instance.deathCount > 1)
-        {
-            GameplayManager.instance.deathCount = 0;
-        }
-        else
-        {
-            StartCoroutine(AdCountDown(5f));
-        }
+        StartCoroutine(AdCountDown(5f));
         Time.timeScale = 0f;
     }
 
@@ -371,6 +366,20 @@ public class GameMenuController : MonoBehaviour
             lives[0].SetActive(false);
         }
         StartCoroutine(ResetMyLife());
+    }
+
+    public void AwardResurrection()
+    {
+        cancelGameOver = true;
+        rewardFlash.SetActive(true);
+    }
+    //This is only called from Ad Animation After Reward Flash
+    public void AfterAdPlay()
+    {
+        gameOverPanel.SetActive(false);
+        SoundManager.soundInstance.gameMusicSource.Stop();
+        SoundManager.soundInstance.PlayBackgroundMusic();
+        pp.Continue();
     }
     public void Resurrection()
     {
@@ -614,15 +623,6 @@ public class GameMenuController : MonoBehaviour
     public void RewardMe()
     {
         secondPanel.SetActive(true);
-        gameOverPanel.SetActive(false);
-    }
-
-    public void SecondActivate()
-    {
-        GameplayManager.instance.HandleEnd();
-        StartCoroutine(HandleResurrection());
-        AudioListener.pause = false;
-        SoundManager.soundInstance.PlayBackgroundMusic();
         gameOverPanel.SetActive(false);
     }
 
