@@ -14,7 +14,7 @@ public class PlayerProperties : MonoBehaviour
     Transform internalP;
 
     public GameObject playerDeath;
-    PolygonCollider2D playerBod;
+    BoxCollider2D playerBod;
 
     public GameObject[] nums;
     public GameObject[] specialProjectile;
@@ -52,7 +52,7 @@ public class PlayerProperties : MonoBehaviour
         //This purpose is solely for animation if you want the components independent of the main character
         internalP = this.transform.GetChild(0);
         playerAnim = internalP.GetComponent<Animator>();
-        playerBod = internalP.GetComponent<PolygonCollider2D>();
+        playerBod = internalP.GetComponent<BoxCollider2D>();
         playerMovement = this.GetComponent<PlayerMovement>();
         playerStatus = this.GetComponent<PlayerStatus>();
         SR = internalP.GetComponent<SpriteRenderer>();

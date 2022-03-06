@@ -27,8 +27,8 @@ public class MapGenerator : MonoBehaviour
     public float minLandSpawnTimeLeft, maxLandSpawnTimeLeft, minLandSpawnTimeRight, maxLandSpawnTimeRight;
     public float miniLandSpawnLeft, miniLandSpawnRight;
 
-    float minLeftLandMoveX, maxLeftLandMoveX;
-    float minRightLandMoveX, maxRightLandMoveX;
+    float minLeftLandMoveX;
+    float minLandMoveY;
 
     float leftXPos;
     float rightXPos;
@@ -39,6 +39,7 @@ public class MapGenerator : MonoBehaviour
     Vector2 desiredPosLeft;
     Vector2 desiredPosMid;
     Vector2 desiredPosRight;
+    float heightBetween;
 
     //This will get the current Vector2 position of cloned object
     public Vector2 clonedLeftPos;
@@ -99,13 +100,16 @@ public class MapGenerator : MonoBehaviour
 
     IEnumerator EarlySpawnLeft()
     {
-        minLandSpawnTimeLeft = 1f;
-        maxLandSpawnTimeLeft = 8f;
+
         if (GameplayManager.instance.suburbs)
         {
+            minLandSpawnTimeRight = .5f;
+            maxLandSpawnTimeRight = 6f;
+
             yield return new WaitForSeconds(Random.Range(minLandSpawnTimeLeft, maxLandSpawnTimeLeft));
             var leftSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnLeft.transform.position, spawnLeft.transform.rotation) as GameObject;
             minLeftLandMoveX = leftSide.transform.position.x;
+            minLandMoveY = leftSide.transform.position.y;
             Debug.Log("Left Side " + leftSide.name + minLeftLandMoveX);
             //This is telling spawn location to float to the right
             leftXPos = Random.Range(-4.9f, -.87f);
@@ -114,8 +118,11 @@ public class MapGenerator : MonoBehaviour
         }
         else
         {
+            minLandSpawnTimeLeft = 1f;
+            maxLandSpawnTimeLeft = 8f;
             var leftSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnLeft.transform.position, spawnLeft.transform.rotation);
             minLeftLandMoveX = leftSide.transform.position.x;
+            minLandMoveY = leftSide.transform.position.y;
             Debug.Log("Left Side " + leftSide.name + minLeftLandMoveX);
             leftXPos = Random.Range(-4.50f, -0.35f);
             desiredPosLeft = new Vector2(leftXPos, spawnLeft.position.y);
@@ -130,50 +137,100 @@ public class MapGenerator : MonoBehaviour
     {
         if (GameplayManager.instance.suburbs)
         {
-            minLandSpawnTimeRight = 1f;
-            maxLandSpawnTimeRight = 8f;
+            minLandSpawnTimeRight = .5f;
+            maxLandSpawnTimeRight = 6f;
 
             if (minLeftLandMoveX >= -0.7 || minLeftLandMoveX >= -.6f)
             {
                 rightXPos = Random.Range(5.3f, 5.8f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                //we will check the height difference between height of left to right
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+
             }
             else if (minLeftLandMoveX >= -1f)
             {
                 rightXPos = Random.Range(5.3f, 5.8f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -1.9)
             {
                 rightXPos = Random.Range(4.55f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -2.75f)
             {
                 rightXPos = Random.Range(3.57f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -3.5f)
             {
                 rightXPos = Random.Range(3.2f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -3.77f)
             {
                 rightXPos = Random.Range(2.7f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(subLands[Random.Range(0, subLands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else
             {
@@ -193,36 +250,76 @@ public class MapGenerator : MonoBehaviour
             {
                 rightXPos = Random.Range(5.3f, 5.8f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -1.9)
             {
                 rightXPos = Random.Range(4.55f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -2.75f)
             {
                 rightXPos = Random.Range(3.57f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -3.5f)
             {
                 rightXPos = Random.Range(3.2f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else if (minLeftLandMoveX >= -3.77f)
             {
                 rightXPos = Random.Range(2.7f, 5.48f);
                 desiredPosRight = new Vector2(rightXPos, spawnRight.position.y);
-                spawnRight.transform.position = desiredPosRight;
-                var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                heightBetween = desiredPosRight.y + minLandMoveY;
+                if (heightBetween <= 2.3f)
+                {
+                    spawnRight.transform.position = new Vector2(rightXPos, heightBetween - 1f);
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
+                else
+                {
+                    var rightSide = Instantiate(tutlands[Random.Range(0, tutlands.Length)], spawnRight.transform.position, spawnRight.transform.rotation);
+                }
             }
             else
             {
